@@ -46,9 +46,9 @@
 // |      |     |     |     | PSC | BTC |   |     | LFT | DWN | RGT |     |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-   &trans     &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6 &kp N7    &kp N8   &kp N9      &kp N0   &trans
-   &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none  &kp PG_UP &kp UP   &kp PG_DOWN &kp HOME &kp END
-   &trans     &none        &none        &none        &kp PSCRN    &bt BT_CLR     &none  &lp LEFT  &kp DOWN &kp RIGHT   &none    &trans
+   &trans     &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6 &kp N7    &kp N8   &kp N9    &kp N0   &trans
+   &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none  &kp PG_UP &kp UP   &kp PG_DN &kp HOME &kp END
+   &trans     &none        &none        &none        &kp PSCRN    &bt BT_CLR     &none  &lp LEFT  &kp DOWN &kp RIGHT &none    &trans
                           	            &trans       &trans       &none          &trans &trans    &trans
                         >;
                 };
